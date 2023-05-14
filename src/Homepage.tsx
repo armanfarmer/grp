@@ -31,7 +31,7 @@ const StyledLink = styled.a`
 const Homepage = () => {
   return (
     <Page>
-      <Title>GRP Registry</Title>
+      <Title>GPU Registry</Title>
       <SubTitle>GPU Registration Protocol v0.1 Alpha Release</SubTitle>
       <Content>
         Announcing the first release of GPU Registration Protocol, a new open source peer-to-peer 
@@ -60,7 +60,7 @@ const Homepage = () => {
         </ul>
       </Content>
       <Content>
-        Paper: <StyledLink href="https://hackmd.io/qRSaJrjlSJCO4pXrzDhyJw">GRP: A Peer-to-Peer Electronic Cash System</StyledLink>
+        Paper: <StyledLink href="https://hackmd.io/qRSaJrjlSJCO4pXrzDhyJw">GPU Registration Protocol (GRP): Credible Commitment of GPU Ownership and Usage</StyledLink>
       </Content>
       <Content>
         Abstract. The GPU Registration Protocol (GRP) aims to establish a decentralized and transparent system 
