@@ -34,8 +34,8 @@ const HomePage = () => {
       <SubTitle>GPU Registration Protocol v0.1 Alpha Release</SubTitle>
       <Content>
         Announcing the first release of GPU Registration Protocol, a new open source peer-to-peer 
-        gpu registry protocol that's completely decentralized, with no central server or trusted parties.
-        Users register their own GPUs and credible commit to owning, transfering, and compute on their GPU, with the 
+        gpu registry protocol that's completely decentralized, with no central server or trusted parties - built on Ethereum.
+        Users register their own GPUs and credible commit to ownership, transfer, and compute on their GPU, with the 
         help of the network to verify authenticity of user's commitment.
       </Content>
       <Content>

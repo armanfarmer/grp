@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://gpuregistry.org",
   "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -45,6 +46,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "ethers": "^5.7.2",
+    "gh-pages": "^5.0.0",
+    "hardhat": "^2.14.0"
   }
 }
