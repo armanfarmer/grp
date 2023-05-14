@@ -14,13 +14,15 @@
     "@types/react-dom": "^18.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.1",
     "react-scripts": "5.0.1",
     "styled-components": "^6.0.0-rc.1",
     "typescript": "^5.0.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm run copy-contract-artifacts && react-scripts start",
+    "copy-contract-artifacts": "cp ./artifacts/contracts/GPURegistration.sol/GPURegistration.json src/contracts/",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
