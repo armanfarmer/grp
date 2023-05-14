@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/armanfarmer/grp/static/css/main.e6c13ad2.css",
+    "main.js": "/armanfarmer/grp/static/js/main.e04f02a6.js",
+    "static/js/787.5c041755.chunk.js": "/armanfarmer/grp/static/js/787.5c041755.chunk.js",
+    "index.html": "/armanfarmer/grp/index.html",
+    "main.e6c13ad2.css.map": "/armanfarmer/grp/static/css/main.e6c13ad2.css.map",
+    "main.e04f02a6.js.map": "/armanfarmer/grp/static/js/main.e04f02a6.js.map",
+    "787.5c041755.chunk.js.map": "/armanfarmer/grp/static/js/787.5c041755.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e04f02a6.js"
+  ]
+}
