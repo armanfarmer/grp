@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import InteractWithContract from './InteractWithContract';
 import Homepage from './Homepage';
+import BlogPost from './BlogPost';
 
 // Defining styled-components
 const Page = styled.div`
@@ -21,6 +22,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/interact" element={<InteractWithContract />} />
+        <Route path="/blogpost" element={<BlogPost />} />
       </Routes>
     </Page>
   </Router>

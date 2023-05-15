@@ -40,10 +40,10 @@ const Homepage = () => {
         help of the network to verify authenticity of user's commitment.
       </Content>
       <Content>
-        <Link to="/interact">Interact with Contract</Link>
+        <Link to="/blog">Read our latest blog post</Link>
       </Content>
       <Content>
-        <StyledLink href="https://github.com/armanfarmer/grp">GRP GitHub Repository</StyledLink>
+        <Link to="/interact">Interact with Contract</Link>
       </Content>
       <Content>
         GPU Registration Protocol is a new design for a fully peer-to-peer electronic cash system. 
@@ -72,6 +72,9 @@ const Homepage = () => {
         the GRP protocol, the GPU industry can enhance supply chain management, traceability, and responsible 
         resource usage. It is implemented as a protocol, and not a state-mandated or centralized service, to 
         promote a credibly neutral environment, free from any single party's control or manipulation.
+      </Content>
+      <Content>
+        <StyledLink href="https://github.com/armanfarmer/grp">GRP GitHub Repository</StyledLink>
       </Content>
     </Page>
   );
